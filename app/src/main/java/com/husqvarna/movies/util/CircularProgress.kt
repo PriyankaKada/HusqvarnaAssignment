@@ -3,7 +3,7 @@ package com.husqvarna.movies.util
 import android.content.Context
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 
-object CircularProgress {
+object CircularProgress  {
 
     fun  circularProgress(context: Context) : CircularProgressDrawable {
         val circularProgress = CircularProgressDrawable(context)

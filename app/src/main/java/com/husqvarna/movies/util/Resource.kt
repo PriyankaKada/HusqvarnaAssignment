@@ -1,6 +1,6 @@
 package com.husqvarna.movies.util
 
-sealed class Resource<T>(
+sealed class Resource<T> (
     val data: T? = null,
     val message: String? = null
 ) {
